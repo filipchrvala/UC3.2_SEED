@@ -91,6 +91,14 @@ validate-and-organize:
       if [ -n "$GIT_STATUS" ]; then
         git add .domino/
         git commit -m "auto-organize"
+        # main may have moved (docs-only commits) while this job ran
+        git fetch origin "${CI_COMMIT_BRANCH}"
+        if ! git rebase "origin/${CI_COMMIT_BRANCH}"; then
+          echo "Rebase conflict in auto-organize — preferring organized .domino/"
+          git checkout --theirs -- .domino/ || true
+          git add .domino/
+          GIT_EDITOR=true git rebase --continue
+        fi
         git push origin "HEAD:${CI_COMMIT_BRANCH}"
       fi
     - |

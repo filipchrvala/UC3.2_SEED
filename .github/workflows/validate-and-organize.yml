@@ -121,15 +121,24 @@ jobs:
 
       - name: Push changes
         if: steps.commit_files.outputs.has_changes == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.REPO_PUSH_TOKEN || secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_PUSH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git fetch origin "${{ github.ref_name }}"
+          if ! git pull --rebase origin "${{ github.ref_name }}"; then
+            echo "Rebase conflict — preferring organized .domino/"
+            git checkout --theirs -- .domino/ || true
+            git add .domino/
+            GIT_EDITOR=true git rebase --continue
+          fi
+          git push origin "HEAD:${{ github.ref_name }}"
 
       - name: Create Release
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_PUSH_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           VERSION=$(python -c "import tomli; print(tomli.load(open('config.toml','rb'))['repository']['VERSION'])")
           git fetch --tags origin
