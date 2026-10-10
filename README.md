@@ -11,10 +11,10 @@ Path: `kv/spice-testbed/shared/partners/uc32-seed`
 
 | Key | Value |
 |-----|--------|
-| `gitlab_registry_token` | GitLab PAT / deploy token (`read_registry`; for Domino repo also `read_api` + `read_repository`) |
+| `gitlab_token` | GitLab PAT (`read_api` + `read_repository`; + `read_registry` if needed) |
 | `onedata_access_token` | OneData Access token for `SCDI` / `UC3.2_COST_OPTIMIZER` |
 
-Copy `onedata_access_token` into Domino repository secret `onedata_token`. Use `gitlab_registry_token` as the Pieces repository Access Token (and for registry pull if needed).
+Copy `onedata_access_token` into Domino repository secret `onedata_token`. Use `gitlab_token` as the Pieces repository Access Token.
 
 After import, before **Create**:
 
