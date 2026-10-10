@@ -5,35 +5,35 @@
             "requirements_file": "requirements_0.txt"
         },
         "pieces": [
+            "InvestmentEvalPiece",
+            "DataNormalizationPiece",
+            "DashboardPiece",
+            "PvoutStagedInferenceSpecPiece",
             "PVOUTPredictionModelTrainPiece",
             "KPIPiece",
-            "ShmuCalibrationPiece",
+            "OpenMeteoPVDataPiece",
+            "CatalogRankerPiece",
             "SimulatePiece",
             "CatalogSyncPiece",
-            "PvoutModelFeatureSelectPiece",
-            "PvoutToVirtualSolarPiece",
-            "BatteryStrategyOptimizerPiece",
-            "DataPreprocessingPiece",
-            "PvoutStagedInferenceSpecPiece",
-            "InvestmentEvalPiece",
-            "SizingHeatmapPiece",
-            "ModelDeciderPiece",
-            "OpenMeteoPVDataPiece",
-            "DataNormalizationPiece",
-            "CatalogRankerPiece",
-            "DashboardPiece",
-            "PVOUTErrorCorrectionModelTrainPiece",
-            "InferencePiece",
-            "UserInputPiece",
-            "SizingOptimizationPiece",
             "BatterySimPiece",
-            "TechnicalLimitsPiece"
+            "TechnicalLimitsPiece",
+            "DataPreprocessingPiece",
+            "ModelDeciderPiece",
+            "InferencePiece",
+            "PvoutToVirtualSolarPiece",
+            "SizingHeatmapPiece",
+            "PVOUTErrorCorrectionModelTrainPiece",
+            "BatteryStrategyOptimizerPiece",
+            "ShmuCalibrationPiece",
+            "PvoutModelFeatureSelectPiece",
+            "UserInputPiece",
+            "SizingOptimizationPiece"
         ],
         "secrets": [
+            "onedata_onezone_host",
             "onedata_output_dir",
-            "onedata_token",
-            "onedata_onezone_host"
+            "onedata_token"
         ],
-        "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.50-group0"
+        "source_image": "ghcr.io/filipchrvala/industry_sg_vre_cost_optimizer:0.1.51-group0"
     }
 }
