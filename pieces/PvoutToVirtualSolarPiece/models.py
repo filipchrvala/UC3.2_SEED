@@ -3,7 +3,13 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 
-class InputModel(BaseModel):
+try:
+    from common.onedata_models import RunIdInputMixin
+except ModuleNotFoundError:
+    from pieces.common.onedata_models import RunIdInputMixin
+
+
+class InputModel(RunIdInputMixin):
     forecast_csv_path: str = Field(
         description="Path to UC3.4 InferencePiece forecast CSV (final_forecast / PVOUT)."
     )
@@ -41,3 +47,14 @@ class OutputModel(BaseModel):
     reference_kwp: float = Field(
         description="Installed kWp the pv_kw column corresponds to."
     )
+
+
+try:
+    from common.onedata_models import OneDataSecretsModel
+except ModuleNotFoundError:
+    from pieces.common.onedata_models import OneDataSecretsModel
+
+
+class SecretsModel(OneDataSecretsModel):
+    """OneData secrets so the piece honours the repository secrets set in Domino
+    (output dir, host, token) instead of the built-in defaults."""
