@@ -3,14 +3,25 @@
 Domino pieces repository for **UC3.2 SEED** (strategic investment / MRK cost optimizer).
 
 - GitHub: register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.51`, then import `UC3.2.customization` (GHCR images).
-- SPICE: Harbor `…/industry_sg_vre_cost_optimizer:0.1.51-group0`. Runbook (jednoduchý model: jeden workspace so secrets, partneri len Import/Run): [workflows/cost_optimizer_onedata/README.md](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/blob/main/cost_optimizer_onedata/README.md).
+- SPICE: Harbor `…/industry_sg_vre_cost_optimizer:0.1.51-group0`. Runbook: [workflows/cost_optimizer_onedata/README.md](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/blob/main/cost_optimizer_onedata/README.md).
+
+## Vault (SPICE partners — same pattern as SAVBA)
+
+Path: `kv/spice-testbed/shared/partners/uc32-seed`
+
+| Key | Value |
+|-----|--------|
+| `gitlab_registry_token` | GitLab PAT / deploy token (`read_registry`; for Domino repo also `read_api` + `read_repository`) |
+| `onedata_access_token` | OneData Access token for `SCDI` / `UC3.2_COST_OPTIMIZER` |
+
+Copy `onedata_access_token` into Domino repository secret `onedata_token`. Use `gitlab_registry_token` as the Pieces repository Access Token (and for registry pull if needed).
 
 After import, before **Create**:
 
 1. **Settings** — workflow name may contain only letters, numbers and `_` (not `UC3.2`).
 2. Shared storage **Local** (Read/Write) on local Docker Domino, so pieces can see each other's files. On SPICE, Open-Meteo hand-over also works via OneData from **0.1.51**.
 3. Register **0.1.51** in that workspace first, or Import will complain about a missing repository version.
-4. Set repository secrets `onedata_onezone_host`, `onedata_token`, `onedata_output_dir` (no built-in token in code).
+4. Set repository secrets `onedata_onezone_host`, `onedata_token`, `onedata_output_dir` (values from Vault above; no built-in token in code).
 
 `UserInputPiece` reads two OneData files (create the `inputs` folder if it is missing):
 
