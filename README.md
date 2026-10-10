@@ -3,9 +3,7 @@
 Domino pieces repository for **UC3.2 SEED** (strategic investment / MRK cost optimizer).
 
 - GitHub: register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.51`, then import `UC3.2.customization` (GHCR images).
-- SPICE GitLab / Harbor: wait for CI image `harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0`, then import the workflow JSON from [workflows/cost_optimizer_onedata](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/tree/main/cost_optimizer_onedata).
-
-**SPICE runbook (register repo, secrets, OneData, Create):** see that workflows README.
+- SPICE: Harbor `…/industry_sg_vre_cost_optimizer:0.1.51-group0`. Runbook (jednoduchý model: jeden workspace so secrets, partneri len Import/Run): [workflows/cost_optimizer_onedata/README.md](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/blob/main/cost_optimizer_onedata/README.md).
 
 After import, before **Create**:
 
