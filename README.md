@@ -5,7 +5,7 @@ Domino pieces repository for **UC3.2 SEED** (strategic investment / MRK cost opt
 - SPICE GitLab: [use-cases/uc3/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED)
 - SPICE Harbor: `harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0`
 - Workflow import pack: [workflows/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/tree/main/UC3.2_SEED)
-- GitHub mirror (optional): register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.53`, then import `UC3.2.customization` (GHCR images).
+- GitHub mirror (optional): register `filipchrvala/UC3.2_SEED` at version `0.1.53`, then import `UC3.2.customization` (GHCR images).
 
 ## Vault (SPICE partners — same pattern as SAVBA)
 
