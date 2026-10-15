@@ -62,14 +62,14 @@ validate-and-organize:
         - config.toml
         - .gitlab-ci.yml
         - pieces/**/*
-        - dependencies/**/*
+        - dependencies/requirements_0.txt
         - scripts/verify_domino_imports.py
     - if: '$CI_COMMIT_BRANCH == "release-0.1.50" && $CI_PIPELINE_SOURCE == "push"'
       changes:
         - config.toml
         - .gitlab-ci.yml
         - pieces/**/*
-        - dependencies/**/*
+        - dependencies/requirements_0.txt
         - scripts/verify_domino_imports.py
     - when: never
   script:
@@ -84,6 +84,16 @@ validate-and-organize:
       tomli.load(p.open('rb'))
       "
     - python scripts/verify_domino_imports.py
+    - |
+      VERSION=$(python -c "import tomli; print(tomli.load(open('config.toml','rb'))['repository']['VERSION'])")
+      git fetch --tags origin
+      # Tag už existuje = release je hotový. Mac/local-only zmeny (PR) nemajú znova
+      # stavať Harbor image. Pre vynútený rebuild nastav CI variable FORCE_ORGANIZE=1.
+      if git rev-parse "refs/tags/${VERSION}" >/dev/null 2>&1 && [ "${FORCE_ORGANIZE:-}" != "1" ]; then
+        echo "Release tag ${VERSION} already exists — skipping organize/publish/release."
+        echo "Set FORCE_ORGANIZE=1 to rebuild Harbor images for this VERSION."
+        exit 0
+      fi
     - domino piece-repository organize --build-images --source-url="${CI_PROJECT_URL}"
     - DOCKER_CLIENT_TIMEOUT=600 domino piece-repository publish-images --registry-username "$CONTAINER_REGISTRY_USERNAME" --registry-token "$CONTAINER_REGISTRY_PASSWORD"
     - |
