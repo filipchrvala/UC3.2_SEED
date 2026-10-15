@@ -30,8 +30,8 @@
             "TechnicalLimitsPiece"
         ],
         "secrets": [
-            "onedata_token",
             "onedata_onezone_host",
+            "onedata_token",
             "onedata_output_dir"
         ],
         "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0"
