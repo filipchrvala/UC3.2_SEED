@@ -8,7 +8,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -135,8 +135,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/UserInputPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/UserInputPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "102_2c7aab61-5fbf-50d4-88a6-1b49db944113": {
@@ -147,7 +147,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -266,8 +266,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/CatalogSyncPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/CatalogSyncPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "103_e28f91b5-ea2e-58aa-a6ca-7e0f56400106": {
@@ -278,7 +278,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -388,8 +388,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/TechnicalLimitsPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/TechnicalLimitsPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "104_d09d4e0c-fb3d-5ad5-9186-3d5ed80bf128": {
@@ -400,7 +400,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -560,8 +560,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/OpenMeteoPVDataPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/OpenMeteoPVDataPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "105_147b3275-3cfe-55e6-be21-deaf354d1392": {
@@ -572,7 +572,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -718,8 +718,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/ShmuCalibrationPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/ShmuCalibrationPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "106_2f5b3d60-881d-5bfa-b98d-57827306daeb": {
@@ -730,7 +730,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -895,8 +895,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/DataPreprocessingPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DataPreprocessingPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "107_7193e3c8-4851-5332-8dff-e67b12dc83ab": {
@@ -907,7 +907,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1074,8 +1074,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/ModelDeciderPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/ModelDeciderPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "108_dcede799-7f3e-57bb-b4a4-0d5567602e0a": {
@@ -1086,7 +1086,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1261,8 +1261,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/DataNormalizationPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DataNormalizationPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "109_965a628d-3427-5d65-85c0-ec7ef12fd0c4": {
@@ -1273,7 +1273,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "data_path": {
@@ -1361,8 +1361,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/PvoutModelFeatureSelectPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutModelFeatureSelectPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "110_4fb2c838-4389-5d3a-b6fa-cb748937a818": {
@@ -1373,7 +1373,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1664,8 +1664,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/PVOUTPredictionModelTrainPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PVOUTPredictionModelTrainPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "111_90d0829b-102c-5a3b-828b-73c90ee17ef7": {
@@ -1676,7 +1676,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1993,8 +1993,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/PVOUTErrorCorrectionModelTrainPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PVOUTErrorCorrectionModelTrainPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "112_b9d15107-b16e-52a8-8602-35b885ee4898": {
@@ -2005,7 +2005,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "baseline_model_path": {
@@ -2115,8 +2115,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/PvoutStagedInferenceSpecPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutStagedInferenceSpecPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "113_d8595140-c9e3-543c-986e-55fd33a1128f": {
@@ -2127,7 +2127,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "$defs": {
           "ModelSpec": {
@@ -2557,8 +2557,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/InferencePiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/InferencePiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "114_1965d058-d1f6-5f49-96fd-f20d6363ef7f": {
@@ -2569,7 +2569,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "forecast_csv_path": {
@@ -2667,8 +2667,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/PvoutToVirtualSolarPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutToVirtualSolarPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "115_2f0749c9-199f-5b80-b9f3-4bbc841a5ea7": {
@@ -2679,7 +2679,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -2784,8 +2784,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/BatteryStrategyOptimizerPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/BatteryStrategyOptimizerPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "116_9d7a32d8-2c11-5fe4-a7a1-cfbe6e48afd3": {
@@ -2796,7 +2796,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -2938,8 +2938,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/SizingOptimizationPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SizingOptimizationPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "117_0249ffd7-e7fb-5b6f-b6d5-1ac45a6b8d58": {
@@ -2950,7 +2950,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3055,8 +3055,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/CatalogRankerPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/CatalogRankerPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "118_9738a3b5-7514-577a-b159-0a5aabcc2c52": {
@@ -3067,7 +3067,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3194,8 +3194,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/BatterySimPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/BatterySimPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "119_7d3da2c0-4c34-5c31-9c9a-2dfeabc62a3b": {
@@ -3206,7 +3206,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3355,8 +3355,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/SimulatePiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SimulatePiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "120_3e5d002e-5f21-5ac7-9284-21a95f4206c6": {
@@ -3367,7 +3367,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3550,8 +3550,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/SizingHeatmapPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SizingHeatmapPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "121_5a2725c8-448c-5709-a4d1-5634d37ea37d": {
@@ -3562,7 +3562,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3661,8 +3661,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/KPIPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/KPIPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "122_d58df8e1-99ac-5049-bf2e-13e17f9eaa55": {
@@ -3673,7 +3673,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3783,8 +3783,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/InvestmentEvalPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/InvestmentEvalPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     },
     "123_495db346-8ff3-53fa-933a-57c9eb0bb5e0": {
@@ -3795,7 +3795,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/industry_sg_vre_cost_optimizer:0.1.51-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3985,8 +3985,8 @@
           "cursor": "pointer"
         }
       },
-      "source_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer/tree/main/pieces/DashboardPiece",
-      "repository_url": "https://github.com/filipchrvala/industry_sg_vre_cost_optimizer",
+      "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DashboardPiece",
+      "repository_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED",
       "repository_id": 112
     }
   },

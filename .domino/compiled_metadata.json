@@ -357,7 +357,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/PVOUTPredictionModelTrainPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PVOUTPredictionModelTrainPiece"
     },
     "KPIPiece": {
         "name": "KPIPiece",
@@ -463,7 +463,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/KPIPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/KPIPiece"
     },
     "ShmuCalibrationPiece": {
         "name": "ShmuCalibrationPiece",
@@ -626,7 +626,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/ShmuCalibrationPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/ShmuCalibrationPiece"
     },
     "SimulatePiece": {
         "name": "SimulatePiece",
@@ -792,7 +792,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/SimulatePiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SimulatePiece"
     },
     "CatalogSyncPiece": {
         "name": "CatalogSyncPiece",
@@ -918,7 +918,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/CatalogSyncPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/CatalogSyncPiece"
     },
     "PvoutModelFeatureSelectPiece": {
         "name": "PvoutModelFeatureSelectPiece",
@@ -945,7 +945,7 @@
         },
         "description": "Split UC3.4 feature_columns into model features + datetime_column without removing datetime from CSV.",
         "dependencies_group": "0",
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/PvoutModelFeatureSelectPiece",
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutModelFeatureSelectPiece",
         "input_schema": {
             "properties": {
                 "run_id": {
@@ -1091,7 +1091,7 @@
         },
         "description": "Adapter: UC3.4 Inference forecast CSV \u2192 SoMES virtual_solar.csv (datetime, pv_kw).",
         "dependencies_group": "0",
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/PvoutToVirtualSolarPiece",
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutToVirtualSolarPiece",
         "input_schema": {
             "properties": {
                 "run_id": {
@@ -1332,7 +1332,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/BatteryStrategyOptimizerPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/BatteryStrategyOptimizerPiece"
     },
     "DataPreprocessingPiece": {
         "name": "DataPreprocessingPiece",
@@ -1566,7 +1566,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/DataPreprocessingPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DataPreprocessingPiece"
     },
     "PvoutStagedInferenceSpecPiece": {
         "name": "PvoutStagedInferenceSpecPiece",
@@ -1735,7 +1735,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/PvoutStagedInferenceSpecPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PvoutStagedInferenceSpecPiece"
     },
     "InvestmentEvalPiece": {
         "name": "InvestmentEvalPiece",
@@ -1852,7 +1852,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/InvestmentEvalPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/InvestmentEvalPiece"
     },
     "SizingHeatmapPiece": {
         "name": "SizingHeatmapPiece",
@@ -2052,7 +2052,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/SizingHeatmapPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SizingHeatmapPiece"
     },
     "ModelDeciderPiece": {
         "name": "ModelDeciderPiece",
@@ -2288,7 +2288,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/ModelDeciderPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/ModelDeciderPiece"
     },
     "OpenMeteoPVDataPiece": {
         "name": "OpenMeteoPVDataPiece",
@@ -2325,7 +2325,7 @@
             }
         },
         "dependencies_group": "0",
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/OpenMeteoPVDataPiece",
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/OpenMeteoPVDataPiece",
         "input_schema": {
             "additionalProperties": true,
             "properties": {
@@ -2754,7 +2754,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/DataNormalizationPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DataNormalizationPiece"
     },
     "CatalogRankerPiece": {
         "name": "CatalogRankerPiece",
@@ -2866,7 +2866,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/CatalogRankerPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/CatalogRankerPiece"
     },
     "DashboardPiece": {
         "name": "DashboardPiece",
@@ -3073,7 +3073,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/DashboardPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/DashboardPiece"
     },
     "PVOUTErrorCorrectionModelTrainPiece": {
         "name": "PVOUTErrorCorrectionModelTrainPiece",
@@ -3459,7 +3459,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/PVOUTErrorCorrectionModelTrainPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/PVOUTErrorCorrectionModelTrainPiece"
     },
     "InferencePiece": {
         "name": "InferencePiece",
@@ -3959,7 +3959,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/InferencePiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/InferencePiece"
     },
     "UserInputPiece": {
         "name": "UserInputPiece",
@@ -4093,7 +4093,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/UserInputPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/UserInputPiece"
     },
     "SizingOptimizationPiece": {
         "name": "SizingOptimizationPiece",
@@ -4242,7 +4242,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/SizingOptimizationPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/SizingOptimizationPiece"
     },
     "BatterySimPiece": {
         "name": "BatterySimPiece",
@@ -4386,7 +4386,7 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/BatterySimPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/BatterySimPiece"
     },
     "TechnicalLimitsPiece": {
         "name": "TechnicalLimitsPiece",
@@ -4503,6 +4503,6 @@
             "title": "SecretsModel",
             "type": "object"
         },
-        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_Industry_Sg_Vre_Cost_Optimizer/tree/main/pieces/TechnicalLimitsPiece"
+        "source_url": "https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED/tree/main/pieces/TechnicalLimitsPiece"
     }
 }

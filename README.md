@@ -1,9 +1,11 @@
-# UC3.2 Industry SG VRE Cost Optimizer
+# UC3.2_SEED
 
 Domino pieces repository for **UC3.2 SEED** (strategic investment / MRK cost optimizer).
 
-- GitHub: register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.51`, then import `UC3.2.customization` (GHCR images).
-- SPICE: Harbor `…/industry_sg_vre_cost_optimizer:0.1.51-group0`. Runbook: [workflows/cost_optimizer_onedata/README.md](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/blob/main/cost_optimizer_onedata/README.md).
+- SPICE GitLab: [use-cases/uc3/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED)
+- SPICE Harbor: `harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0`
+- Workflow import pack: [workflows/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/tree/main/UC3.2_SEED)
+- GitHub mirror (optional): register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.52`, then import `UC3.2.customization` (GHCR images).
 
 ## Vault (SPICE partners — same pattern as SAVBA)
 
@@ -19,8 +21,8 @@ Copy `onedata_access_token` into Domino repository secret `onedata_token`. Use `
 After import, before **Create**:
 
 1. **Settings** — workflow name may contain only letters, numbers and `_` (not `UC3.2`).
-2. Shared storage **Local** (Read/Write) on local Docker Domino, so pieces can see each other's files. On SPICE, Open-Meteo hand-over also works via OneData from **0.1.51**.
-3. Register **0.1.51** in that workspace first, or Import will complain about a missing repository version.
+2. Shared storage **Local** (Read/Write) on local Docker Domino, so pieces can see each other's files. On SPICE, Open-Meteo hand-over also works via OneData from **0.1.52**.
+3. Register **0.1.52** in that workspace first, or Import will complain about a missing repository version.
 4. Set repository secrets `onedata_onezone_host`, `onedata_token`, `onedata_output_dir` (values from Vault above; no built-in token in code).
 
 `UserInputPiece` reads two OneData files (create the `inputs` folder if it is missing):
@@ -38,7 +40,7 @@ Run outputs go to `onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs/<run_id>/<piece>
 
 Pipeline on `main` builds and publishes the Domino piece image to Harbor when `config.toml`, `pieces/`, `dependencies/`, or `.gitlab-ci.yml` change.
 
-Set **Settings → CI/CD → Variables** (mask secrets). These were already configured for the previous 0.1.42 Harbor push:
+Set **Settings → CI/CD → Variables** (mask secrets):
 
 | Variable | Description |
 |----------|-------------|
