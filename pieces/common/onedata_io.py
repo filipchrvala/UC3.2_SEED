@@ -418,7 +418,7 @@ def listdir(path: str | os.PathLike[str]) -> list[str]:
 # its internal I/O: inputs are downloaded to a local temp before the piece runs
 # (so the unchanged piece logic works on local files), and the piece's outputs
 # are uploaded from results_path to OneData afterwards
-# (default ``onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs``).
+# (default ``onedata:///SCDI/UC3.2_SEED/outputs``).
 
 def _remote_name(path: str) -> str:
     fs, p = _fs(str(path))

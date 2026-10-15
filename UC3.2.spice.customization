@@ -8,7 +8,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -112,7 +112,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -147,7 +147,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -243,7 +243,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -278,7 +278,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -365,7 +365,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -400,7 +400,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -572,7 +572,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -691,7 +691,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -730,7 +730,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -907,7 +907,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1086,7 +1086,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1273,7 +1273,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "data_path": {
@@ -1373,7 +1373,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -1676,7 +1676,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "additionalProperties": true,
         "properties": {
@@ -2005,7 +2005,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "baseline_model_path": {
@@ -2127,7 +2127,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "$defs": {
           "ModelSpec": {
@@ -2569,7 +2569,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "forecast_csv_path": {
@@ -2679,7 +2679,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -2761,7 +2761,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -2796,7 +2796,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -2915,7 +2915,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -2950,7 +2950,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3032,7 +3032,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3067,7 +3067,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3171,7 +3171,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3206,7 +3206,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3330,7 +3330,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3367,7 +3367,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3523,7 +3523,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3562,7 +3562,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3638,7 +3638,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3673,7 +3673,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3760,7 +3760,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -3795,7 +3795,7 @@
         "requirements_file": "requirements_0.txt",
         "dockerfile": null
       },
-      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0",
+      "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0",
       "input_schema": {
         "properties": {
           "run_id": {
@@ -3962,7 +3962,7 @@
                 "type": "null"
               }
             ],
-            "default": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs",
+            "default": "onedata:///SCDI/UC3.2_SEED/outputs",
             "description": "OneData base dir for run outputs (empty string keeps results on local Domino storage only)",
             "title": "Onedata Output Dir"
           }
@@ -4006,7 +4006,7 @@
           "upstreamId": "",
           "upstreamArgument": "",
           "upstreamValue": "",
-          "value": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/inputs/load_and_prices.csv"
+          "value": "onedata:///SCDI/UC3.2_SEED/inputs/load_and_prices.csv"
         },
         "prices_csv": {
           "fromUpstream": false,
@@ -4020,7 +4020,7 @@
           "upstreamId": "",
           "upstreamArgument": "",
           "upstreamValue": "",
-          "value": "onedata:///SCDI/UC3.2_COST_OPTIMIZER/inputs/scenario.yaml"
+          "value": "onedata:///SCDI/UC3.2_SEED/inputs/scenario.yaml"
         },
         "run_id": {
           "fromUpstream": false,

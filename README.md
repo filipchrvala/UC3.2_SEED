@@ -3,9 +3,9 @@
 Domino pieces repository for **UC3.2 SEED** (strategic investment / MRK cost optimizer).
 
 - SPICE GitLab: [use-cases/uc3/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/UC3.2_SEED)
-- SPICE Harbor: `harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.52-group0`
+- SPICE Harbor: `harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0`
 - Workflow import pack: [workflows/UC3.2_SEED](https://gitlab.spice-platform.eu/use-cases/uc3/workflows/-/tree/main/UC3.2_SEED)
-- GitHub mirror (optional): register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.52`, then import `UC3.2.customization` (GHCR images).
+- GitHub mirror (optional): register `filipchrvala/industry_sg_vre_cost_optimizer` at version `0.1.53`, then import `UC3.2.customization` (GHCR images).
 
 ## Vault (SPICE partners — same pattern as SAVBA)
 
@@ -14,23 +14,23 @@ Path: `kv/spice-testbed/shared/partners/uc32-seed`
 | Key | Value |
 |-----|--------|
 | `gitlab_token` | GitLab PAT (`read_api` + `read_repository`; + `read_registry` if needed) |
-| `onedata_access_token` | OneData Access token for `SCDI` / `UC3.2_COST_OPTIMIZER` |
+| `onedata_access_token` | OneData Access token for `SCDI` / `UC3.2_SEED` |
 
 Copy `onedata_access_token` into Domino repository secret `onedata_token`. Use `gitlab_token` as the Pieces repository Access Token.
 
 After import, before **Create**:
 
 1. **Settings** — workflow name may contain only letters, numbers and `_` (not `UC3.2`).
-2. Shared storage **Local** (Read/Write) on local Docker Domino, so pieces can see each other's files. On SPICE, Open-Meteo hand-over also works via OneData from **0.1.52**.
-3. Register **0.1.52** in that workspace first, or Import will complain about a missing repository version.
+2. Shared storage **Local** (Read/Write) on local Docker Domino, so pieces can see each other's files. On SPICE, Open-Meteo hand-over also works via OneData from **0.1.53**.
+3. Register **0.1.53** in that workspace first, or Import will complain about a missing repository version.
 4. Set repository secrets `onedata_onezone_host`, `onedata_token`, `onedata_output_dir` (values from Vault above; no built-in token in code).
 
 `UserInputPiece` reads two OneData files (create the `inputs` folder if it is missing):
 
-- `onedata:///SCDI/UC3.2_COST_OPTIMIZER/inputs/load_and_prices.csv` — load (datetime + power; prices optional)
-- `onedata:///SCDI/UC3.2_COST_OPTIMIZER/inputs/scenario.yaml` — site, CAPEX, battery step, MRK and the rest of the design settings
+- `onedata:///SCDI/UC3.2_SEED/inputs/load_and_prices.csv` — load (datetime + power; prices optional)
+- `onedata:///SCDI/UC3.2_SEED/inputs/scenario.yaml` — site, CAPEX, battery step, MRK and the rest of the design settings
 
-Run outputs go to `onedata:///SCDI/UC3.2_COST_OPTIMIZER/outputs/<run_id>/<piece>/`. Set the `onedata_output_dir` secret to an empty string only if you want to keep results on local Domino storage.
+Run outputs go to `onedata:///SCDI/UC3.2_SEED/outputs/<run_id>/<piece>/`. Set the `onedata_output_dir` secret to an empty string only if you want to keep results on local Domino storage.
 
 `prices_csv` stays empty. If the load file has no usable `price_eur_per_kwh`, UserInputPiece pulls OKTE day-ahead prices for the same datetime range.
 
