@@ -5,35 +5,35 @@
             "requirements_file": "requirements_0.txt"
         },
         "pieces": [
+            "InvestmentEvalPiece",
+            "DataNormalizationPiece",
+            "DashboardPiece",
+            "PvoutStagedInferenceSpecPiece",
             "PVOUTPredictionModelTrainPiece",
             "KPIPiece",
-            "ShmuCalibrationPiece",
+            "OpenMeteoPVDataPiece",
+            "CatalogRankerPiece",
             "SimulatePiece",
             "CatalogSyncPiece",
-            "PvoutModelFeatureSelectPiece",
-            "PvoutToVirtualSolarPiece",
-            "BatteryStrategyOptimizerPiece",
-            "DataPreprocessingPiece",
-            "PvoutStagedInferenceSpecPiece",
-            "InvestmentEvalPiece",
-            "SizingHeatmapPiece",
-            "ModelDeciderPiece",
-            "OpenMeteoPVDataPiece",
-            "DataNormalizationPiece",
-            "CatalogRankerPiece",
-            "DashboardPiece",
-            "PVOUTErrorCorrectionModelTrainPiece",
-            "InferencePiece",
-            "UserInputPiece",
-            "SizingOptimizationPiece",
             "BatterySimPiece",
-            "TechnicalLimitsPiece"
+            "TechnicalLimitsPiece",
+            "DataPreprocessingPiece",
+            "ModelDeciderPiece",
+            "InferencePiece",
+            "PvoutToVirtualSolarPiece",
+            "SizingHeatmapPiece",
+            "PVOUTErrorCorrectionModelTrainPiece",
+            "BatteryStrategyOptimizerPiece",
+            "ShmuCalibrationPiece",
+            "PvoutModelFeatureSelectPiece",
+            "UserInputPiece",
+            "SizingOptimizationPiece"
         ],
         "secrets": [
             "onedata_token",
             "onedata_onezone_host",
             "onedata_output_dir"
         ],
-        "source_image": "harbor.testbed.spice-platform.eu/partner/uc3/uc3_2_seed:0.1.53-group0"
+        "source_image": "ghcr.io/filipchrvala/uc3_2_seed:0.1.53-group0"
     }
 }
